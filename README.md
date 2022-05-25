@@ -1,2 +1,9 @@
-# Self-Help
-  This is just something I thought I would do for myself and anyone else who thinks they could benifit from it as well.
+# Self-Help Questionaire
+  
+  
+  The program asks the user how they feel and gives them options. The user then types the number next to the answer they feel bests describes their mood.
+  The program will output an answer that it feels will help the user's current mood.
+  This is just something I wanted to do for myself and anyone else who thinks they could benifit from it as well.
+  
+ 
+  
