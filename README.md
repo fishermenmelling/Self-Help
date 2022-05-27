@@ -5,5 +5,16 @@
   The program will then output an answer that will try help the user's current mood improve.
   This is just something I wanted to do for myself and anyone else who thinks they could benifit from it as well.
   
+# Instructions
+
+  Download the cpp file and the .h file.
+  Open terminal
+  navigate through terminal to inside the folder carrying the .cpp file and the .hpp file
+  Type: g++ "Self Help.cpp" -o "Self Help"
+  Click Enter/Return
+  Type: ./"Self Help"
+  
+  
+  
  
   
