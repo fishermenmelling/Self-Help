@@ -7,12 +7,17 @@
   
 # Instructions
 
-  Download the cpp file and the .h file.
-  Open terminal
-  navigate through terminal to inside the folder carrying the .cpp file and the .hpp file
-  Type: g++ "Self Help.cpp" -o "Self Help"
-  Click Enter/Return
-  Type: ./"Self Help"
+  1. Download the cpp file and the .h file.
+  
+  2. Open terminal
+  
+  3. navigate through terminal to inside the folder carrying the .cpp file and the .hpp file
+  
+  4. Type: g++ "Self Help.cpp" -o "Self Help"
+  
+  5. Click Enter/Return
+  
+  6. Type: ./"Self Help"
   
   
   
