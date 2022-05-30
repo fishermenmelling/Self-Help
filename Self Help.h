@@ -1,18 +1,13 @@
 //
-//  See_what_happens.h
-//  See_what_happens
-//
 //  Created by mark melling on 5/24/22.
 //
 
-#ifndef See_what_happens_h
-#define See_what_happens_h
 #include <iostream>
 #include  <string>
 
 using namespace std;
 
-/*class ME {
+class ME {
     private:
         int sin;
         
@@ -20,13 +15,13 @@ using namespace std;
     int joy{0};
         bool fear, on_covenant_path, patient, peace_of_mind;
         
-};*/
+};
 
 /*void WaysToIgniteSpiritualMomentum(ME Me()) {
     
-}*/
+}
 
-/*if (bored || sleepy) {
+if (bored || sleepy) {
     walk_outside
 }
 Else if (rainy || snowy) {
