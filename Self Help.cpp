@@ -8,70 +8,19 @@
 #include <iostream>
 #include "Self Help.h"
 
-void bedtimeQuestion() {
-    std::cout << "Is it close to bedtime?(y/n)\n Answer: ";
-    char a;
-    std::cin >> a;
-    if (a == 'y') {
-        std::cout << "Get ready for bed\n";
-    } else if (a == 'n') {
-        std::cout << "Think about going for a walk\n";
-    } else {
-        std::cout << "Don't fall asleep on the couch\n";
-    }
-}
-
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    int t;
-    std::cout << "How do you feel?\n";
-    std::cout << "  1 intolerant\n  2 bored\n  3 stressed\n  4 unmotivated\n  5 nervous\n  6 sleepy\n  7 paranoid\n  8 hungry\n\n Answer: ";
     
-    std::cin >> t;
+    int number = 100;
     
-    switch (t) {
-        case 1:
-            //intolerant
-            std::cout << "Go somewhere else\n";
-            std::cout << "And don't ever expect the worst!\n";
-            break;
-        case 2:
-            //bored
-            std::cout << "Turn on the switch\n";
-            break;
-        case 3:
-            //stressed
-            std::cout << "Take a walk\n";
-            std::cout << "And don't ever expect the worst!\n";
-            break;
-        case 4:
-            //unmotivated
-            std::cout << "Divide the task into smaller pieces\n";
-            std::cout << "And don't ever expect the worst!\n";
-            break;
-        case 5:
-            //nervous
-            std::cout << "Take one step toward the thing you are nervous about doing\n";
-            std::cout << "And don't ever expect the worst!\n";
-            break;
-        case 6:
-            //sleepy
-            bedtimeQuestion();
-            break;
-        case 7:
-            //paranoid
-            std::cout << "Don't ever assume the worst!\n";
-            std::cout << "Move on, learn from it, and don't worry about it anymore\n";
-            break;
-        case 8:
-            //hungry
-            std::cout << "\n";
-            foodMaking();
-            break;
-        default:
-            std::cout << "Pray about it\n";
-            break;
+    
+    for (int i = 0; i < number; i++) {
+        question();
+        char continue_or_not_answer = retryQuestion();
+        
+        if (continue_or_not_answer != 'y') {
+            return 0;
+        }
+        std::cout << "\n";
     }
-    std::cout << "\n";
     return 0;
 }
