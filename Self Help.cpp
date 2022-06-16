@@ -14,7 +14,7 @@ int main(int argc, const char * argv[]) {
     
     
     for (int i = 0; i < number; i++) {
-        question();
+        mainQuestion();
         char continue_or_not_answer = retryQuestion();
         
         if (continue_or_not_answer != 'y') {
@@ -24,3 +24,8 @@ int main(int argc, const char * argv[]) {
     }
     return 0;
 }
+
+
+
+
+
