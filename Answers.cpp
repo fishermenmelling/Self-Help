@@ -6,7 +6,11 @@
 //
 
 #include <iostream>
-#include "Answers.h"
+#include "Answers.hpp"
+#include <iostream>
+#include <string>
+#include <vector>
+
 char yesNoQuestion() {
     std::cout << "(y/n + enter/return)\n";
     char answer;
@@ -164,6 +168,7 @@ void sad() {
             break;
         case 3:
             std::cout << "Isaiah 1:18: “Come now, let us reason together, says the Lord: though your sins are like scarlet, they shall be as white as snow; though they are red like crimson, they shall become like wool.\n";
+            break;
         default:
             sad();
             break;
